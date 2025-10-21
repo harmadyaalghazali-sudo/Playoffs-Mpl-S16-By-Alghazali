@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPL Playoffs Bracket</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      color: #38bdf8;
+    }
+
+    .bracket {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+
+    .round {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .match {
+      background: #1e293b;
+      padding: 12px;
+      border-radius: 10px;
+      width: 200px;
+      text-align: left;
+      position: relative;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+    }
+
+    .team {
+      display: flex;
+      justify-content: space-between;
+      margin: 6px 0;
+    }
+
+    .team span {
+      font-weight: 600;
+    }
+
+    .score {
+      background: #334155;
+      border-radius: 6px;
+      padding: 2px 6px;
+    }
+
+    .section-title {
+      font-size: 1.3em;
+      color: #fbbf24;
+      margin-bottom: 15px;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background: #475569;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>MPL Playoffs Bracket</h1>
+
+  <div class="section-title">Upper Bracket</div>
+  <div class="bracket">
+    <div class="round">
+      <div class="match">
+        <div class="team"><span>EVOS</span><span class="score">3</span></div>
+        <div class="team"><span>DEWA</span><span class="score">1</span></div>
+      </div>
+      <div class="match">
+        <div class="team"><span>AE</span><span class="score">2</span></div>
+        <div class="team"><span>NAVI</span><span class="score">3</span></div>
+      </div>
+      <div class="match">
+        <div class="team"><span>ONIC</span><span class="score">3</span></div>
+        <div class="team"><span>BTR</span><span class="score">2</span></div>
+      </div>
+    </div>
+
+    <div class="round">
+      <div class="match">
+        <div class="team"><span>EVOS</span><span class="score">2</span></div>
+        <div class="team"><span>NAVI</span><span class="score">3</span></div>
+      </div>
+      <div class="match">
+        <div class="team"><span>ONIC</span><span class="score">3</span></div>
+        <div class="team"><span>NAVI</span><span class="score">2</span></div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section-title">Lower Bracket</div>
+  <div class="bracket">
+    <div class="round">
+      <div class="match">
+        <div class="team"><span>DEWA</span><span class="score">2</span></div>
+        <div class="team"><span>AE</span><span class="score">3</span></div>
+      </div>
+      <div class="match">
+        <div class="team"><span>BTR</span><span class="score">3</span></div>
+        <div class="team"><span>AE</span><span class="score">1</span></div>
+      </div>
+    </div>
+
+    <div class="round">
+      <div class="match">
+        <div class="team"><span>NAVI</span><span class="score">2</span></div>
+        <div class="team"><span>BTR</span><span class="score">3</span></div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section-title">Grand Final</div>
+  <div class="bracket">
+    <div class="match">
+      <div class="team"><span>ONIC</span><span class="score">4</span></div>
+      <div class="team"><span>BTR</span><span class="score">2</span></div>
+    </div>
+  </div>
+
+  <h2>🏆 Juara: ONIC Esports 🏆</h2>
+
+</body>
+</html>
